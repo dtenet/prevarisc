@@ -62,9 +62,9 @@ Cette manipulation installe les dépendances automatiquement.
 
 #### Accès à la base de données
 
-Vous devez configurer Prevarisc afin qu'il ait accès à la base de données (entre autres). La configuration par défaut est placé dans application/configs/application.ini, ce fichier contient quelques directives de base pour la configuration de votre environnement. Voici comment le configurer :
+Vous devez configurer Prevarisc afin qu'il ait accès à la base de données (entre autres). La configuration par défaut est placé dans application/configs/db.ini, ce fichier contient quelques directives de base pour la configuration de votre environnement. Voici comment le configurer :
 ```
-; application/configs/application.ini
+; application/configs/db.ini
 
 (...)
 resources.db.params.host = #HOST (ex : localhost)#
